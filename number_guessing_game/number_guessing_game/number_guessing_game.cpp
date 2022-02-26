@@ -6,9 +6,7 @@
 #include <number_guessing_game/guess/guess.hpp>
 #include <number_guessing_game/secret/secret.hpp>
 int main() {
-
   constexpr int maxAttempts = 5;
-
   const Secret secret;
   Farewell{
     Attempts{
