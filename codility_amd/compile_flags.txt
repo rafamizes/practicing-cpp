@@ -1,0 +1,23 @@
+clang
+
+%h c++-header
+-std=c++14
+-I.
+-Icodility_amd
+-Wall
+-Wextra
+-Wpedantic
+-Wsign-conversion
+-Wconversion
+-Wuseless-cast
+-Wshadow
+-Wvla
+-Wno-deprecated
+-Wextra-semi
+-Wnull-dereference
+-Wswitch-enum
+-Wduplicated-cond
+-Wduplicated-branches 
+-Wsuggest-override
+-Wmissing-prototypes
+-Wimplicit-fallthrough
