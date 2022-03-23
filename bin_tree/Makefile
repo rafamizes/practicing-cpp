@@ -1,6 +1,6 @@
-APP ?= number_guessing_game
+APP ?= bin_tree
 # the path of the source files.
-src := number_guessing_game
+src := bin_tree
 # the path of the output build directory — the place where the intermediate
 # outputs of the compiler are put into.
 build := build

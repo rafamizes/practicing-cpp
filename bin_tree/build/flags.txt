@@ -1,0 +1,4 @@
+CPPFLAGS: -I. -MMD -D_GLIBCXX_DEBUG
+CFLAGS:   
+CXXFLAGS: -std=c++17 -g -O1 -Wall -Wextra -Wpedantic -Wsuggest-override -Wconversion -Wsign-conversion -Wuseless-cast -Wshadow -Wvla -Wnull-dereference -Wswitch-enum -Wduplicated-cond -Wduplicated-branches -Wimplicit-fallthrough -fsanitize=address,undefined,leak -fno-omit-frame-pointer -fvar-tracking-assignments -rdynamic
+LDFLAGS:  
